@@ -4,10 +4,10 @@ services:
   env: docker
   repo: https://github.com/Amrit0991/meilisearch-docker-render.git
   plan: standard
-  disk:
-    name: meili-data
-    mountPath: /meili-data
-    sizeGB: 5  
+  # disk:
+  #   name: meili-data
+  #   mountPath: /meili-data
+  #   sizeGB: 5
   envVars:
   - key: MEILI_HTTP_ADDR
     value: 0.0.0.0:80
