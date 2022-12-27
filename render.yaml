@@ -3,7 +3,8 @@ services:
   name: meili
   env: docker
   repo: https://github.com/Amrit0991/meilisearch-docker-render.git
-  plan: standard
+  # plan: standard
+  plan: free
   # disk:
   #   name: meili-data
   #   mountPath: /meili-data
