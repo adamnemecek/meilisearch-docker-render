@@ -2,7 +2,7 @@ services:
 - type: web
   name: meili
   env: docker
-  repo: https://github.com/Amrit0991/meilisearch-docker-render.git
+  repo: https://github.com/adamnemecek/meilisearch-docker-render.git
   # plan: standard
   plan: free
   # disk:
